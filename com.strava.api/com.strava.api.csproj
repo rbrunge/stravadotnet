@@ -53,6 +53,9 @@
     <Compile Include="Activities\ActivitySummary.cs" />
     <Compile Include="Activities\ActivityType.cs" />
     <Compile Include="Activities\ActivityZone.cs" />
+    <Compile Include="Activities\BestEffort.cs" />
+    <Compile Include="Activities\BestEffortActivity.cs" />
+    <Compile Include="Activities\BestEffortAthlete.cs" />
     <Compile Include="Filters\AgeFilter.cs" />
     <Compile Include="Activities\Comment.cs" />
     <Compile Include="Activities\DistributionBucket.cs" />

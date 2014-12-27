@@ -30,6 +30,12 @@ namespace com.strava.api.Activities
     public class Activity : ActivitySummary
     {
         /// <summary>
+        /// A list of best efforts for activity.
+        /// </summary>
+        [JsonProperty("best_efforts")]
+        public List<BestEffort> BestEfforts { get; set; }
+
+        /// <summary>
         /// A list of segment effort objects.
         /// </summary>
         [JsonProperty("segment_efforts")]
